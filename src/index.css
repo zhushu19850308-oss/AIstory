@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&family=ZCOOL+XiaoWei&display=swap');
+
+@theme {
+  --font-display: "Ma Shan Zheng", cursive;
+  --font-serif: "Noto Serif SC", serif;
+  --font-cute: "ZCOOL+XiaoWei", serif;
+  
+  --color-mint: #e6f7f2;
+  --color-mint-dark: #b2e2d2;
+  --color-lavender: #f3e8ff;
+  --color-lavender-dark: #d8b4fe;
+  --color-soft-yellow: #fef9c3;
+  --color-soft-yellow-dark: #fde047;
+  --color-paper: #fdfbf7;
+}
+
+body {
+  background-color: var(--color-mint);
+  color: #334155;
+  font-family: var(--font-serif);
+}
+
+.storybook-card {
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 20px 20px;
+}
